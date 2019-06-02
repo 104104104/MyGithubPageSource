@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<ul style="list-style:none;">
+    {{ range .Data.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+    {{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

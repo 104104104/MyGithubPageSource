@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+@-ms-viewport {width: device-width;}
+
+.body {
+  font-family: '游ゴシック',Yugothic, 'メイリオ',
+  'Hiragino Kaku Gothic Pro', sans-serif;
+  background-color: #ff1111;
+  /*position: absolute;*/
+}
+
+h1{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+h2{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+ul {
+  list-style: none;
+}
+
+.toppic > h1{
+  margin: 100 20 100 20;
+  font-size: 50px;
+}
+
+.defbox{
+  float:left;
+  background: #eeeeee;
+  word-wrap: break-word;
+}
+.defbox > img{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defbox > p{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defboxlast{
+  overflow:auto;
+  background: #dddddd;
+  word-wrap: break-word;
+}
+.defboxlast > img{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defboxlast > p{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.title{
+  background: black;
+  float: left;
+}
+.title > h1 > a{
+  font-size:50px;
+  color: #ffffff;
+}
+.title> h2{
+  font-size: 20px;
+  padding: 0 0 0 0;
+  float : left;
+  color: #ffffff;
+}
+
+.metaheader{
+  background: black;
+}
+
+.header{
+  color: #ffffff;
+  background: black;
+  margin: 0 0 0 0;
+  margin-bottom: 60;
+  padding: 0 0 0 0;
+  padding-right: 300;
+  float: none;
+  height: 110px;
+}
+
+.menu{
+  margin: -60 0 0 0;
+  float: none;
+}
+.menu > .defbox{
+  width: 16.6%;
+}
+.menu > .defboxlast{
+  width: 16.6%;
+}
+
+.toppic{
+  position: relative;
+  width:60%;
+  height: 60%;
+  float: left;
+}
+.toppic > img{
+  width:100%;
+  height: 100%;
+}
+.toppic > .defbox1{
+  font-size: 30px;
+  position: absolute;
+  top: 5%;
+  left:10%;
+}
+.toppic > .defbox1 > img{
+  width:200px;
+  margin-left: -40%;
+}
+.toppic > .defbox2{
+  font-size: 30px;
+  position: absolute;
+  top: 5%;
+  left: 80%;
+}
+.toppic > .defbox2 > img{
+  width:200px;
+  margin-left: -40%;
+}
+.toppic > .defbox3{
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.toppic > .defbox3 > img{
+  width:200px;
+  margin-left: -40%;
+}
+.toppic > .defbox3 > p{
+  margin-left: -40%;
+}
+
+.event_plans{
+  width:40%;
+  float:right;
+}
+
+.article{
+  background: #eeeeee;
+  padding: 10 10 10 10;
+  margin: 10 10 10 10 ;
+}
+
+.article > img{
+  padding-left:60%;
+  width: 40%;
+}
+
+.concept > h1{
+  margin: 0 50 50 0;
+  /*background: red;*/
+}
+
+.concept > .defboxlast{
+  background: #eeeeff;
+  margin: 0 50 50 0;
+  padding: 0 50 0 0;
+}
+
+.concept > .defboxlast > p{
+  margin: 0 0 30 0;
+  padding: 10 0 0 10;
+}
+
+.footer{
+  background: lime;
+}

@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+@-ms-viewport {width: device-width;}
+
+.body {
+  font-family: '游ゴシック',Yugothic, 'メイリオ',
+  'Hiragino Kaku Gothic Pro', sans-serif;
+  background-color: #ff1111;
+  /*position: absolute;*/
+}
+
+h1{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+h2{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+ul {
+  list-style: none;
+}
+
+.defbox{
+  float:left;
+  /*background: #eeeeee;*/
+  word-wrap: break-word;
+}
+.defbox > img{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defbox > p{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defboxlast{
+  overflow:auto;
+  /*background: #dddddd;*/
+  word-wrap: break-word;
+}
+.defboxlast > img{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.defboxlast > p{
+  width: 70%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.title{
+  color: #ffffff;
+  background: black;
+  float: left;
+}
+.title > h1{
+  font-size:50px;
+}
+.title> h2{
+  font-size: 20px;
+  padding: 0 0 0 0;
+  float : left;
+}
+
+.metaheader{
+  /*background: black;*/
+}
+
+.header{
+  background: black;
+  color: #ffffff;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  padding-right: 300;
+  float: left;
+}
+
+.menu{
+  background: black;
+  color: #ffffff;
+  margin: 0 0 100 0;
+  float: none;
+}
+
+.top{
+  margin-bottom: 50;
+  background: #eeeeee;
+}
+.top > .defbox{
+  width: 33.33%;
+}
+.top > .defboxlast{
+  width: 33.33%;
+}
+
+.service{
+  background: #ffffaa;
+  margin-bottom: 30;
+}
+.service > .defbox{
+  width: 33.33%;
+}
+.service > .defboxlast{
+  width: 33.33%;
+}
+
+.example{
+  margin-bottom: 30;
+  background: #ffaaff;
+}
+.example > .defbox{
+  width: 50%;
+}
+.example > .defboxlast{
+  width: 50%;
+}
+
+.info{
+  background: #aaffff;
+}
+
+.footer{
+  background: #ffaaaa;
+}
