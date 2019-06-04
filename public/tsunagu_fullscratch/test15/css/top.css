@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@-ms-viewport {width: device-width;}
+
+.body {
+  font-family: '游ゴシック','Yugothic', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+  background-color: #ff1111;
+}
+
+#titlelogo{
+  margin-top: 10%;
+  height: 70px;
+  width: auto;
+}
+#titlechar{
+  margin-top: 1%;
+}
+#time{
+  margin-top: 1.3%;
+  margin-left: 2%;
+}
+#place{
+  margin-top: 1.3%;
+  margin-left: 2%;
+}
+#topbotton1{
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+}
+#topbotton2{
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+}
+.topbox{
+  margin-top : 8%;
+  margin-bottom: 10%;
+  margin-left : 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+.topbox > h1{
+  text-align: center;
+}
+.topbox > p{
+  text-align: center;
+}
+
+#news{
+  background: #CAE7F2;
+  margin-bottom: 0;
+  padding-top: 2%;
+  padding-bottom: 0;
+}
+
+#about1{
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+#about1_content{
+  margin-left: 1%;
+  margin-bottom: 3%;
+}
+#about1_title{
+  margin-bottom: 2%;
+}
+#about1_p{
+}
+#about1_pic{
+  width: 100%;
+  height: auto;
+}
+#about2{
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+#about2_content{
+  margin-left: 1%;
+}
+#about2_title{
+  margin-bottom: 2%;
+}
+#about2_pic{
+  width: 100%;
+  height: auto;
+}
+#about3{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#about3_content{
+  margin-left: 1%;
+}
+#about3_title{
+  margin-bottom: 2%;
+}
+#about3_pic{
+  width: 100%;
+  height: auto;
+}
+#sns{
+  margin-top: 0%;
+  margin-bottom: 8%;
+  padding-top: 0%;
+}
+
+
+.ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

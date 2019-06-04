@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://104104104.github.io/tsunagu_hugo/test19/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2019 16:37:27 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/tsunagu_hugo/test19/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ourmission</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test19/pages/ourmission/</link>
+      <pubDate>Fri, 31 May 2019 16:37:27 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test19/pages/ourmission/</guid>
+      <description> 学生、企業、市民をつなぐ   Steve Francia   「学び」のための空間 スタッフは飯塚の学生です </description>
+    </item>
+    
+    <item>
+      <title>Test1</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test19/blog/test1/</link>
+      <pubDate>Mon, 27 May 2019 17:08:55 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test19/blog/test1/</guid>
+      <description> test1 </description>
+    </item>
+    
+    <item>
+      <title>All_blog</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test19/pages/all_blog/</link>
+      <pubDate>Mon, 27 May 2019 17:03:49 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test19/pages/all_blog/</guid>
+      <description> ALLBLOG  {{ range (.Paginator 10).Pages }} {{ .Render &#34;list&#34; }} {{ end }}  </description>
+    </item>
+    
+  </channel>
+</rss>

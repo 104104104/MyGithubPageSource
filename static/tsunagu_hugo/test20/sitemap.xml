@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/pages/</loc>
+    <lastmod>2019-06-03T11:34:43+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/pages/place/</loc>
+    <lastmod>2019-06-03T11:34:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/</loc>
+    <lastmod>2019-06-03T11:34:43+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/facility/</loc>
+    <lastmod>2019-06-03T10:37:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/facility/ipad/</loc>
+    <lastmod>2019-06-03T10:37:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/pages/ourmission/</loc>
+    <lastmod>2019-05-31T16:37:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/blog/</loc>
+    <lastmod>2019-05-27T17:08:55+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/blog/test1/</loc>
+    <lastmod>2019-05-27T17:08:55+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/tsunagu_hugo/test20/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>吉田のサイト</title>
+    <link>https://104104104.github.io/</link>
+    <description>Recent content on 吉田のサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2019 23:50:19 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://104104104.github.io/html_experiment/javascript/</link>
+      <pubDate>Tue, 04 Jun 2019 23:50:19 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/html_experiment/javascript/</guid>
+      <description> jsでマウス座標  </description>
+    </item>
+    
+    <item>
+      <title>Flier</title>
+      <link>https://104104104.github.io/portfolio/flier/</link>
+      <pubDate>Sun, 02 Jun 2019 22:09:08 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/portfolio/flier/</guid>
+      <description> 吉田のフライヤー  つなぐカフェについてのフライヤー 
+ 新入生のためのプログラミング入門イベントのフライヤー 
+ 藍橋杯のフライヤー 
+ つなぐカフェのバイト募集のフライヤー 
+  </description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://104104104.github.io/portfolio/slides/</link>
+      <pubDate>Sun, 02 Jun 2019 22:07:23 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/portfolio/slides/</guid>
+      <description> つなぐカフェ春ぜみのスライド 
+ つなぐカフェ春ぜみのリフレクションのスライド 
+ 新入生のためのプログラミング入門イベントのスライド 
+ 藍橋杯勉強会　1回目のスライド 
+ 藍橋杯勉強会　2回目のスライド 
+ 藍橋杯勉強会　3回目のスライド 
+  </description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://104104104.github.io/tsunagusite/hugo/</link>
+      <pubDate>Sun, 02 Jun 2019 20:04:44 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagusite/hugo/</guid>
+      <description> Hugoで作り始めたサイト  19回目 
+ 20回目 
+  </description>
+    </item>
+    
+    <item>
+      <title>Fullscratch</title>
+      <link>https://104104104.github.io/tsunagusite/fullscratch/</link>
+      <pubDate>Sun, 02 Jun 2019 18:16:29 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagusite/fullscratch/</guid>
+      <description> フルスクラッチで書いてた頃のサイト  1回目 
+ 2回目 
+ 3回目 
+ 4回目 
+ 5回目 
+ 6回目 
+ 7回目 
+ 8回目 
+ 9回目 
+ 10回目 
+ 11回目 
+ 12回目 
+ 13回目 
+ 14回目 
+ 15回目 
+ 16回目 
+ 17回目 
+ 18回目 
+  </description>
+    </item>
+    
+  </channel>
+</rss>

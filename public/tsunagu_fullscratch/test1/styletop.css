@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+@-ms-viewport {width: device-width;}
+
+body {
+  margin: 0;
+  font-family: '游ゴシック',Yugothic, 'メイリオ',
+  'Hiragino Kaku Gothic Pro', sans-serif;
+  background-color: #ff1111;
+}
+
+/*header*/
+.header {
+  height: 700px;
+  padding: 90px 20px 20px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #000000;
+  background-image: url(picture/tosyokan.jpg);
+  background-size: cover;
+}
+
+.header h1{
+  margin: 0;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.header h1 a{
+  color: #111111;
+  text-decoration: none;
+}
+.header p{
+  margin: 8px 0 0 0;
+  font-size: 20px;
+  line-height: 1;
+}
+.header .text{
+  float: left;
+}
+.header .added{
+  float: right;
+}
+.header {
+  position: relative;
+}
+.header .info{
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  right: 50px;
+}
+.header .menu{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+/*menu*/
+.menu{
+  padding: 20px;
+  background-color: #000000;
+  text-decoration: none;
+}
+.menu ul,
+.menu ol{
+  margin: -2;
+  padding: 0;
+  font-size: 20px;
+  color: #ffffff;
+  list-style: none;
+}
+.menu li a{
+  padding: 0px 10px;
+  text-decoration: none;
+    color: #ffffff;
+}
+.menu li+li a{
+  border-left: solid 1px #aaa;
+}
+.menu li{
+  float: left;
+}
+
+
+/*infomation*/
+.info{
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+  border: none;
+  color : #ffffff;
+}
+.info h1{
+  margin: 0 0 0 0;
+  font-size: 28px;
+  line-height: 1.2;
+  color : #ffffff;
+}
+.info p{
+  margin: 0 0 0 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color : #ffffff;
+}
+.info .title{
+  float: left;
+  color : #ffffff;
+}
+.info .text{
+  float: left;
+  color : #ffffff;
+}
+.header .added .info .text .p{
+  color : #ffffff;
+}
+.info .li .a{
+  color : #ffffff;
+}
+
+.info .text.a {
+text-decoration: none;
+}
+
+/*about*/
+.about{
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  border: none;
+}
+.about h1{
+  margin: auto;
+  padding:  10px 20px 20px 20px;
+}
+.about p{
+}
+
+/*footer*/
+.footer{
+  padding:20px;
+  background-color: #dfe3e8;
+}
