@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html_experiments on 吉田のサイト</title>
+    <link>https://104104104.github.io/html_experiment/</link>
+    <description>Recent content in Html_experiments on 吉田のサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2019 23:50:19 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/html_experiment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://104104104.github.io/html_experiment/javascript/</link>
+      <pubDate>Tue, 04 Jun 2019 23:50:19 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/html_experiment/javascript/</guid>
+      <description> jsでマウス座標  </description>
+    </item>
+    
+  </channel>
+</rss>
