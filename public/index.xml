@@ -6,10 +6,21 @@
     <description>Recent content on 吉田のサイト</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 23:50:19 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2019 23:38:52 +0900</lastBuildDate>
     
 	<atom:link href="https://104104104.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pyxel</title>
+      <link>https://104104104.github.io/pyxel/</link>
+      <pubDate>Sat, 08 Jun 2019 23:38:52 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/pyxel/</guid>
+      <description>Pyxelで作ったものを置いておく。途中。
+GIF 
+ソースコード</description>
+    </item>
     
     <item>
       <title>Javascript</title>
@@ -56,6 +67,10 @@
       <guid>https://104104104.github.io/tsunagusite/hugo/</guid>
       <description> Hugoで作り始めたサイト  19回目 
  20回目 
+ 21回目 
+ 22回目 
+ 23回目 
+ 24回目 
   </description>
     </item>
     

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>施設紹介 on つなぐカフェ＠飯塚</title>
+    <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/</link>
+    <description>Recent content in 施設紹介 on つなぐカフェ＠飯塚</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 08 Jun 2019 20:48:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>勾玉型テーブル</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/magatama/</link>
+      <pubDate>Sat, 08 Jun 2019 20:48:52 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/magatama/</guid>
+      <description> 勾玉型机あります </description>
+    </item>
+    
+    <item>
+      <title>3Dプリンター</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/3dprinter/</link>
+      <pubDate>Sat, 08 Jun 2019 20:46:56 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/3dprinter/</guid>
+      <description> 3Dプリンターあります </description>
+    </item>
+    
+    <item>
+      <title>貸出用MacBookPro</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/macbookpro/</link>
+      <pubDate>Sat, 08 Jun 2019 18:12:58 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/macbookpro/</guid>
+      <description> MacBookProあります </description>
+    </item>
+    
+    <item>
+      <title>集中ブース</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/syutyu/</link>
+      <pubDate>Sat, 08 Jun 2019 17:36:26 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/syutyu/</guid>
+      <description> 一人でも、二人でも </description>
+    </item>
+    
+    <item>
+      <title>貸出用iPad</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/ipad/</link>
+      <pubDate>Fri, 07 Jun 2019 17:57:21 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test22/%E6%96%BD%E8%A8%AD%E7%B4%B9%E4%BB%8B/ipad/</guid>
+      <description> 貸出用iPadあります </description>
+    </item>
+    
+  </channel>
+</rss>

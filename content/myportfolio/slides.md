@@ -10,3 +10,4 @@ draft: true
 - {{% static_a href="pdfnado/slide/rantyao_1.pdf" %}} 藍橋杯勉強会　1回目のスライド {{% /static_a %}}
 - {{% static_a href="pdfnado/MyPortfolio/slide/rantyao_2.pdf" %}} 藍橋杯勉強会　2回目のスライド {{% /static_a %}}
 - {{% static_a href="pdfnado/MyPortfolio/slide/rantyao_3.pdf" %}} 藍橋杯勉強会　3回目のスライド {{% /static_a %}}
+- {{% static_a href="pdfnado/MyPortfolio/slide/rantyao_4.pdf" %}} 藍橋杯勉強会　4回目のスライド {{% /static_a %}}

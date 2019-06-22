@@ -32,6 +32,15 @@
           var message = 'Mouse position X:' + mousePos.x + ', Y:' + mousePos.y;
           PrintPosition(canvas, message);
         }, false);
+
+        canvas.addEventListener('touchmove', function (evt) {
+         var touchPos = gettouchPosition(canvas, evt);
+         var message = 'position X:' + touchPos.x + ', Y:' + touchPos.y;
+         PrintPosition(canvas, message);
+         evt.preventDefault();
+        }, false);
+
+
       }
   </script>
 </head>
