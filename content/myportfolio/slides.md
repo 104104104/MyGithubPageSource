@@ -1,5 +1,6 @@
 ---
 title: "Slides"
+linkTitle: "Slides"
 date: 2019-06-02T20:20:04+09:00
 draft: true
 ---

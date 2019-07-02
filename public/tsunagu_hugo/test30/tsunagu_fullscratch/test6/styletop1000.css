@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+@-ms-viewport {width: device-width;}
+
+.body {
+  font-family: '游ゴシック','Yugothic', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+  background-color: #ff1111;
+  /*position: absolute;*/
+}
+
+h1{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+h2{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+p{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+ul {
+  list-style: none;
+}
+
+
+.title{
+  background: #2ECCFA;
+  border-radius: 10px;
+  position: relative;
+  height: 80px;
+}
+.titlechar{
+  width: auto;
+  position: absolute;
+}
+.titlechar > h1 > a{
+  font-size:50px;
+  text-decoration: none;
+  color: black;
+
+}
+.title_info{
+  font-size: 20px;
+}
+
+.title_info_box{
+  padding: 0 30 0 0;
+  margin: -20 0 0 0;
+  position: absolute;
+  left: 40%;
+}
+
+.title_info_box_2{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position: absolute;
+  left: 75%;
+  top: 5px;
+}
+.title_info_box_2 > a1 > p > a{
+  background: black;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.title_info_box_2 > a2 > p > a{
+  background: black;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+  .top{
+    text-align: center;
+    width:90%;
+    height: 400px;
+    /*margin: 30 30 30 30;*/
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+  }
+  .topbox1{
+    border-radius: 20px;
+    border: solid 2px #c55a11;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    width: 42%;
+    height: auto;
+    background: #f8cbad;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+  .topbox1 > h1{
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .topbox1 > p{
+    font-size: 20px;
+  }
+  .topbox2{
+    border-radius: 20px;
+    border: solid 2px #1f4e79;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    background: #bdd7ee;
+    width: 42%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+  }
+  .topbox2 > h1{
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .topbox2 > p{
+    font-size: 20px;
+  }
+  .topbox3{
+    border-radius: 20px;
+    border: solid 2px #385723;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    width: 42%;
+    height: auto;
+    background: #c5e0b4;
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+  }
+  .topbox3 > h1{
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .topbox3 > p{
+    font-size: 20px;
+  }
+  .topbox4{
+    border-radius: 20px;
+    border: solid 2px #7f6000;
+    background: #ffe699;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width: 42%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+  }
+  .topbox4 > h1{
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .topbox4 > p{
+    font-size: 20px;
+  }
+.nbox{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nbox > h1{
+  font-size: 40px;
+}
+
+.about{
+  width: 100%;
+  margin-left: 5%;
+}
+.about > p{
+  font-size: 20px;
+  margin: 20 0 20 0;
+}
+.about > img{
+  width: 40%;
+  height: auto;
+  float: right;
+}
+
+.join {
+  border: solid 2px #000000;
+  width: 70%;
+  margin : 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding : 10 10 10 10 ;
+}
+.join > p > b{
+  font-size: 20px;
+}
+.join > p > b1{
+  font-weight:bolder;
+  font-size: 16px;
+}
+
+.link{
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.map{
+  padding-left: 5%;
+}
+.map > p{
+  font-size: 20px;
+}
+
+.ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  padding-left: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 60%;
+}
+
+.footer{
+    background: #eeeeee;
+    height: auto;
+}
+.footer > p1{
+  float:left;
+  width:48%;
+}
+.footer > p2{
+  padding: 0%;
+  width: 48%;
+}

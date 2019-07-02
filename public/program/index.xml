@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program on 吉田のサイト</title>
+    <link>https://104104104.github.io/program/</link>
+    <description>Recent content in Program on 吉田のサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 29 Jun 2019 14:38:34 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pyxelで作った避けゲー</title>
+      <link>https://104104104.github.io/program/pyxelgame/</link>
+      <pubDate>Sat, 29 Jun 2019 14:38:34 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/program/pyxelgame/</guid>
+      <description>  ピンクの四角がマウス。周りのオレンジが敵で、避けるゲーム。 敵同士は引き合い、合体し、大きくなる ソースコード  概要  Pyxel勉強会  を行うに際し、サンプルとして作ったゲーム。結構楽しく作った。 勉強会中で示したスライドを以下に示す。 以下の図のような経緯があり、最初に想定していたものとは全然異なるプログラムが完成した。  が、ものを作る中で作りたいものが変化するのはむしろ自然で、それでより良いものが作れるならむしろ歓迎すべきことではないかと感じた。 Pyxel勉強会  でも、そのような内容の話をした。    </description>
+    </item>
+    
+    <item>
+      <title>荒ぶるタピオカ</title>
+      <link>https://104104104.github.io/program/tapioka/</link>
+      <pubDate>Fri, 28 Jun 2019 14:16:20 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/program/tapioka/</guid>
+      <description> これ 
+概要  友達とタピオカの話が盛り上がった夜、深夜テンションで作った。思ったよりキモくなった。せっかくなのでここに載せる  </description>
+    </item>
+    
+  </channel>
+</rss>

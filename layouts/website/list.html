@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<ul style="list-style:none;">
+  <h1>吉田の {{ .Title }} 一覧</h1>
+  <div class="container">
+      {{ range .Data.Pages }}
+      <div class="row">
+      <div class="col-md-6">
+        <li>
+          <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}
+          <p>{{.Description}}</p>
+        </li>
+      </div>
+      <div class="col-md-3">
+        <a href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}/website2/{{.LinkTitle}}.jpg" class="img-fluid"></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</ul>
+
+{{ partial "footer.html" . }}

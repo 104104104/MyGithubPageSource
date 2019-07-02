@@ -1,28 +1,4 @@
-header{
-padding-bottom:50px;
-}
-
-main{
-    padding-top:70px;
-}
-
-#topimg{
-    background:red;
-}
-
-#topboxs{
-    padding-top:30px;
-}
-
-#topbox:hover{
-    background-color:#FFFFFF;
-}
-
-mainmenu{
-    padding : 0px 0px 0px 0px;
-    margin : 0px 0px 0px 0px;
-}
-
-footer{
-    padding-top: 30px;
+.topbox{
+    padding-top: 20px;
+    padding-bottom: 70px;
 }

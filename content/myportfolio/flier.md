@@ -8,3 +8,4 @@ draft: true
 - {{% static_a href="pdfnado/flier/tsunagu_flier.pdf" %}} つなぐカフェについてのフライヤー {{% /static_a %}}
 - {{% static_a href="pdfnado/flier/prog_nyumon_flier.pdf" %}} 新入生のためのプログラミング入門イベントのフライヤー {{% /static_a %}}
 - {{% static_a href="pdfnado/flier/tsunagu_baito_flier.pdf" %}} つなぐカフェのバイト募集のフライヤー {{% /static_a %}}
+- {{% static_a href="pdfnado/flier/Pyxel.pdf" %}} Pyxel勉強会のフライヤー {{% /static_a %}}

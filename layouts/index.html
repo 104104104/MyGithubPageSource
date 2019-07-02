@@ -1,48 +1,104 @@
-{{- define "hierarchy" }}
-<ul>
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{- /* カレントセクション直下のセクションは再帰処理 */}}
-        {{- range .Sections }}
-        {{- template "hierarchy" . }}
-        {{- end }}
+{{ partial "header.html" . }}
 
-        {{- /* カレントセクション直下のページリスト（ホームだけ特殊処理） */}}
-        <ul>
-            {{- range (cond .IsHome (where $.Site.RegularPages "Section" "") .Pages) }}
-            <li><a href="{{ .Site.BaseURL}}{{ .RelPermalink }}">{{ .Title }}</a>
-                {{- end }}
-        </ul>
-            </li>
-</ul>
-{{- end }}
+<div class="container">
+  <div class="topbox">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>吉田信将のポートフォリオ</h1>
+        <p>このサイトは、九州工業大学情報工学部3年(2019/6/22現在)の吉田が名刺がわりに作った、これまでに作ったもの置き場です。</p>
+        <p>バイト先で作ったもの、趣味で作ったもの、今まさに作っているものなどが置いてあります。</p>
+        <p>ちなみに、このページは Hugo と Boostrap で書かれています。</p>
+        <p><a href="{{.Site.BaseURL}}/portfolio.pdf">PDF版のポートフォリオ</a>を作りました。特に自信がある制作物についてまとめています。(2019/6/29更新)</p>
+      </div>
+    </div>
+  </div>
 
 
-{{- define "breadcrumb" }}
-{{- if .node.Parent }}
-{{- template "breadcrumb" (dict "node" .node.Parent "start" .start) }}
-{{- else if not .node.IsHome }}
-{{- template "breadcrumb" (dict "node" .node.Site.Home "start" .start) }}
-{{- end }}
+  <div class="topbpx">
+    <div class="row">
+      <div class="col-md-12">
+        <h3><strong>行ったイベント</strong></h3>
+        <p>バイト先でイベントを開催することが何度もありました。その時の作ったスライドや、あれば開催の様子の写真を載せます</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/event"> <img src="/img/sinnyusei.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/event/sinnyuusei"> <img src="/img/sinnyusei_slide.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/event/rantyao"> <img src="/img/rantyao_1.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/event/pyxel"> <img src="/img/pyxel.jpg" class="img-fluid"> </a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="{{.Site.BaseURL}}/event">一覧はこちら> </a>
+      </div>
+    </div>
+  </div>
 
-{{- if eq .node .start }}
-<li>{{ .node.LinkTitle }}
-    {{- else }}
-    <li><a href="{{ .node.Permalink }}">{{ .node.LinkTitle }}</a>
-        {{- end }}
-        {{- end }}
 
-        {{ partial "header.html" . }}
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
 
-                    <h2>全ページのリスト</h2>
+  <div class="topbox">
+    <div class="row">
+      <div class="col-md-12">
+        <h3><strong>作ったフライヤー</strong></h3>
+        <p>バイト先でフライヤーを作ることがよくあります。割と作るのが好きなので、自分からその手の仕事を取りに行っているところはあります。フライヤーを色々作っているうちに、　Webデザインにも興味が出てきて、今(2019/6/22時点)に至ります。</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"> <a href="{{.Site.BaseURL}}/flier/tsunagustaff"><img src="/img/flier_1.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-2"> <a href="{{.Site.BaseURL}}/flier/tsunagustaff"><img src="/img/flier_2.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-2"> <a href="{{.Site.BaseURL}}/flier/retoro"><img src="/img/flier_3.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-2"> <a href="{{.Site.BaseURL}}/flier/tsunaguabout"><img src="/img/flier_4.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-2"> <a href="{{.Site.BaseURL}}/flier/nyuumon"><img src="/img/flier_5.jpeg" class="img-fluid"></a> </div>
+    </div>
 
-                    {{ template "hierarchy" .Site.Home }}
 
-                </div>
-            </div>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="{{.Site.BaseURL}}/flier">一覧はこちら> </a>
+      </div>
+    </div>
+  </div>
 
-        {{ partial "footer.html" . }}
+
+  <div class="topbox">
+    <div class="row">
+      <div class="col-md-12">
+        <h3><strong>作ったWebサイト</strong>(つなぐカフェ＠飯塚公式サイト)</h3>
+        <p>今(2019/6/22)は主に、バイト先の「つなぐカフェ＠飯塚」の公式webサイトを作っています。まさに今(2019/6/22)開発中なのですが、古いバージョンも含めここにおきます。</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/website/tsunaguhugo"><img src="/img/website_1.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-3"> <a href="{{.Site.BaseURL}}/website/tsunaguold"><img src="/img/website_2.jpeg" class="img-fluid"> </a></div>
+      <div class="col-md-3"> <a href="http://www.tsunagucafe.com">現行版つなぐカフェサイト</a> </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="{{.Site.BaseURL}}/website">一覧はこちら> </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="topbox">
+    <div class="row">
+      <div class="col-md-12">
+        <h3><strong>作ったプログラム</strong></h3>
+        <p>吉田が趣味などで書いたプログラムを<a href="https://github.com/104104104">ここの吉田のGithub</a>に置いています。</p>
+        <p>特にできがいいものについては、ポートフォリオに個別ページを作って記録をしておきます。</p>
+        <a href="https://github.com/104104104">吉田のGithub > </a>
+        <br><br>
+        <a href="{{.Site.BaseURL}}/program">プログラムの一覧はこちら> </a>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+{{ partial "footer.html" . }}

@@ -11,3 +11,4 @@ draft: false
 - {{% static_a href="pdfnado/slide/rantyao_1.pdf" %}} 藍橋杯勉強会　1回目のスライド {{% /static_a %}}
 - {{% static_a href="pdfnado/slide/rantyao_2.pdf" %}} 藍橋杯勉強会　2回目のスライド {{% /static_a %}}
 - {{% static_a href="pdfnado/slide/rantyao_3.pdf" %}} 藍橋杯勉強会　3回目のスライド {{% /static_a %}}
+- {{% static_a href="pdfnado/slide/Pyxel1.pdf" %}} Pyxel勉強会のスライド {{% /static_a %}}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on つなぐカフェ＠飯塚</title>
+    <link>https://104104104.github.io/tsunagu_hugo/test26/news/</link>
+    <description>Recent content in News on つなぐカフェ＠飯塚</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 Jun 2019 18:03:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://104104104.github.io/tsunagu_hugo/test26/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>会員登録のお願い</title>
+      <link>https://104104104.github.io/tsunagu_hugo/test26/news/signup/</link>
+      <pubDate>Mon, 03 Jun 2019 18:03:06 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/tsunagu_hugo/test26/news/signup/</guid>
+      <description>2019/6/3 から、つなぐカフェ＠飯塚の利用には会員登録が必須になりました。
+詳しくは以下の画像をご覧ください。</description>
+    </item>
+    
+  </channel>
+</rss>
