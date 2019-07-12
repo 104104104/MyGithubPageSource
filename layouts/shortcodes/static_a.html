@@ -1,0 +1,4 @@
+{{ $link := $.Page.Resources.GetMatch (.Get `href`) }}
+<a href="{{- with $link }}{{ $link.RelPermalink }}{{- else}}{{.Get `href`}}{{end -}}" class="{{.Get `class`}}">
+  {{.Inner}}
+</a>

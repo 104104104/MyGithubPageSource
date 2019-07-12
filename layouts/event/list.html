@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<ul style="list-style:none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="padding-top:60px;">
+        <h1>吉田の主催したイベント一覧</h1>
+      </div>
+    </div>
+    {{ range .Data.Pages }}
+    <div class="row" style="padding-bottom:20px;">
+      <div class="col-md-8">
+        <li><a href="{{ .RelPermalink }}">
+            <h3>{{ .Title }}</h3>
+          </a>
+          (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}<br>
+          <p>{{.Description}}</p>
+        </li>
+
+      </div>
+      <div class="col-md-3">
+        <a href="{{ .RelPermalink }}"><img src="/img/eventslist/{{.LinkTitle}}.jpg" class="img-fluid"></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</ul>
+
+{{ partial "footer.html" . }}

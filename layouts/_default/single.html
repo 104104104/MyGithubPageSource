@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="entry-header">
+        <span class="entry-date">{{ .Date.Format "Jan 01, 2006" }}</span>
+        <h1 class="entry-title">{{ .Title }}</h1>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="entry-content">
+        <p>{{ .Content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}

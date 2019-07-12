@@ -1,0 +1,10 @@
+baseURL = "https://104104104.github.io"
+languageCode = "ja"
+title = "吉田のポートフォリオ"
+
+# セクションタイトルが勝手に複数形になるのを、この一行で防ぐ
+pluralizeListTitles = false
+
+#相対パスを有効にする設定
+relativeURLS = true
+canonifyurls = true

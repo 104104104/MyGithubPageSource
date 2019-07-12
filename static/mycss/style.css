@@ -1,0 +1,71 @@
+/*一番上の四角について*/
+.logo {
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.frexParent {
+  display: flex;
+}
+
+.selfIntro {
+}
+.selfIntro h1{
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.selfIntro p{
+  font-size: 18px;
+}
+
+.myimg {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.myDetail {
+  margin-top: 20px;
+}
+.myDetail h1{
+  margin-top: 80px;
+  font-size: 40px;
+}
+.myDetail h3{
+  margin-top: 10px;
+}
+.myDetail p{
+  font-size: 18px;
+}
+.myDetail img{
+}
+
+
+.entry-header{
+  padding-top:60px;
+}
+.entry-content p{
+  font-size: 18px;
+}
+
+.topbox {
+  margin-top: 60px;
+}
+
+.containerInContainer-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.introPic {
+  margin-bottom: 50px;
+}
+
+footer{
+  padding-top: 30px;
+  background-color: #eeeeee;
+}

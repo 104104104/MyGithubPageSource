@@ -1,0 +1,57 @@
+</main>
+
+
+{{- define "hierarchy" }}
+<ul>
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- /* カレントセクション直下のセクションは再帰処理 */}}
+    {{- range .Sections }}
+    {{- template "hierarchy" . }}
+    {{- end }}
+
+    {{- /* カレントセクション直下のページリスト（ホームだけ特殊処理） */}}
+    <ul>
+      {{- range (cond .IsHome (where $.Site.RegularPages "Section" "") .Pages) }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}
+    </ul>
+  </li>
+</ul>
+{{- end }}
+
+
+<footer>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>サイトマップ</h2>
+          {{ template "hierarchy" .Site.Home }}
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>吉田信将</h3>
+          <p>九州工業大学 情報工学部 知能情報工学科　2021年卒業予定</p>
+        </div>
+        <div class="col-md-6">
+          <h3>連絡先</h3>
+          <p>Mail : yoshida.toshinobu388@mail.kyutech.jp</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Boostrap読み込み-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

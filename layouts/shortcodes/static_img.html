@@ -1,0 +1,2 @@
+{{ $img := $.Page.Resources.GetMatch (.Get `src`) }}
+<img src="{{$img.RelPermalink}}" class="img-fluid {{.Get `class`}}" style="{{.Get `style`}}">
