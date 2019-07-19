@@ -6,10 +6,7 @@ draft: false
 description: ""
 ---
 
-### これ
-
-
-<iframe src="/htmls/tapioka/tapioka.html" style="height: 700px;"></iframe>
+{{% static_a href="/htmls/tapioka/tapioka.html" %}}<h3>これ</h3>{{% /static_a %}}
 
 ### 概要
 - 友達とタピオカの話が盛り上がった夜、深夜テンションで作った。思ったよりキモくなった。せっかくなのでここに載せる

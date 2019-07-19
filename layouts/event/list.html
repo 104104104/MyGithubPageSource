@@ -5,6 +5,8 @@
     <div class="row">
       <div class="col-md-12" style="padding-top:60px;">
         <h1>吉田の主催したイベント一覧</h1>
+        <p>このページには、各イベントのスライドのまとめページを並べています。</p>
+        <p>まとめスライドは、イベントの内容を表しているはずだからです。</p>
       </div>
     </div>
     {{ range .Data.Pages }}
@@ -22,6 +24,7 @@
         <a href="{{ .RelPermalink }}"><img src="/img/eventslist/{{.LinkTitle}}.jpg" class="img-fluid"></a>
       </div>
     </div>
+    <div class="spacer"></div>
     {{ end }}
   </div>
 </ul>

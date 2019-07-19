@@ -5,6 +5,15 @@ date: 2019-05-13T15:55:49+09:00
 draft: false
 description: ""
 ---
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+{{% static_img src="TsunaguStaff.jpg" %}}
+</div>
+</div>
+</div>
+
 ### なぜ作ったか
 バイト先のつなぐカフェ＠飯塚で、新しい学生スタッフを募集するために作った。
 
@@ -26,5 +35,3 @@ description: ""
 ### PDF版
 {{% static_a href="tsunaguStaff.pdf" %}} こちら {{% /static_a %}}
 
-
-{{% static_img src="TsunaguStaff.jpg" %}}

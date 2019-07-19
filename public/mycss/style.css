@@ -30,7 +30,7 @@
   margin-top: 20px;
 }
 .myDetail h1{
-  margin-top: 80px;
+  margin-top: 20px;
   font-size: 40px;
 }
 .myDetail h3{
@@ -42,12 +42,22 @@
 .myDetail img{
 }
 
+.myDetailBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+.offBox-md {
+      display: none;
+    }
+  }
 
 .entry-header{
   padding-top:60px;
 }
 .entry-content p{
-  font-size: 18px;
+  /*font-size: 18px;*/
 }
 
 .topbox {
@@ -63,6 +73,10 @@
 
 .introPic {
   margin-bottom: 50px;
+}
+
+.spacer{
+  margin-top: 50px;
 }
 
 footer{

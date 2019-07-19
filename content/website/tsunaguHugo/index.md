@@ -6,33 +6,24 @@ draft: false
 description: "つなぐカフェ＠飯塚の公式ページをHugoで作りました。学外の人間とつながりたい学生、新しい技術で遊びたい学生、活動や作業を行いやすい場所を探している学生に伝えることを想定しています。"
 ---
 
-~~まさに今作っているものです。~~
+### トップページ(の画像)
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+{{% static_a href="/htmls/tsunagu2/index.html" %}}{{% static_img src="TsunaguHugo.jpg" %}}{{% /static_a %}}
+</div>
+</div>
+</div>
 
-~~2019/7/1(月)公開に決まりました。今、最後のデバッグやタイポ探し、読み込み高速化のために画像の縮小などを行っています(2019/6/28更新)~~
-公開しました(<a href="http://www.tsunagucafe.com">こちらです</a>)
-吉田が手元で、ポートフォリオ用に保存しているバージョンへのリンクは{{% static_a href="/htmls/tsunagu2/index.html"%}}こちら{{% /static_a %}}です。
 
 ### サマリー
-- つなぐカフェ＠飯塚の公式ページをHugoで作りました。
+- つなぐカフェ＠飯塚の公式ページをHugoで作りました。<a href="http://www.tsunagucafe.com">ここ(外部リンク)</a>で公開しています。
+  - 念の為、ポートフォリオ用に、{{% static_a href="/htmls/tsunagu2/index.html" %}}ここ{{%/static_a%}}で同じページを公開しています。外部リンクが切れていた場合はこちらをご覧ください。
 - 学外の人間とつながりたい学生、新しい技術で遊びたい学生、活動や作業を行いやすい場所を探している学生に伝えることを想定しています。
-
-### トップページ(の画像)
-{{% static_a href="/htmls/tsunagu2/index.html" %}}{{% static_img src="TsunaguHugo.jpg" %}}{{% /static_a %}}
 
 ### いつ作ったものか
 - 2019/5月 ~ 2019/6月ごろに、このサイトを作っていました。
-- ~~2019/7/1に<a href="http://www.tsunagucafe.com">ここ</a>に公開します(今日は2019/6/29)。~~
-- 公開しました
-
-### 使ったツール
-- HTML + css + Javascrpit
-  - Webサイトを動かしたりしようと思うと、Javascrpitの知識が必要になったので、必要な部分勉強しました。
-- Boostrap
-- Hugo
-  - はじめはwordpressで作ろうかとも思っていたのですが、バイト先の先輩に「Hugoで十分なのでは？」と情報をいただき、確かに性能的に十分でその上ググると良質な情報がたくさん落ちていたので、Hugoで作った。
-- Photoshop + Illustrator (と、Affinity Designer)
-  - webデザイナーになるのなら使えた方がいいのかなと思い勉強した。確かに、多機能で便利。今までpagesなどで作っていた画像のコラージュや説明文入れをIllustratorで行い、画像の明るさの調整などPhotoshopで行った。
-  - Affinity Designerは、吉田のMacBookが遅すぎてIllustratorはイライラするので、 持っているiPad Proで使おうと購入した。これもなかなか便利ではある。が、ネットの情報の大阪ら考えると、Illustratorの方が柔軟に使える。この手のツールにもう少しなれたらAffinity Designerもありだろう。
+- 2019/7/1に<a href="http://www.tsunagucafe.com">ここ</a>に公開しました。
 
 ### 伝えたい相手
 - 飯塚の学生
@@ -64,3 +55,14 @@ description: "つなぐカフェ＠飯塚の公式ページをHugoで作りま�
       - 超当たり前のことだと思うが、しばらく運営していて「とりあえずお客様気分でここに来たらなんか面白いことしてもらえる」といったよくわからない認識の人間が割と来たため。
   - が、直接「ここはきっかけを提供するだけで、あとは自分でやらないと成長できません」と書くと角が立つので、「〜のきっかけに」という表現を多用した
     - 仮に文句を言われたとしても、来るだけで成長できるとは一言も書いていないので、おそらく大丈夫
+
+
+### 使ったツール
+- HTML + css + Javascrpit
+  - Webサイトを動かしたりしようと思うと、Javascrpitの知識が必要になったので、必要な部分勉強しました。
+- Boostrap
+- Hugo
+  - はじめはwordpressで作ろうかとも思っていたのですが、バイト先の先輩に「Hugoで十分なのでは？」と情報をいただき、確かに性能的に十分でその上ググると良質な情報がたくさん落ちていたので、Hugoで作った。
+- Photoshop + Illustrator (と、Affinity Designer)
+  - webデザイナーになるのなら使えた方がいいのかなと思い勉強した。確かに、多機能で便利。今までpagesなどで作っていた画像のコラージュや説明文入れをIllustratorで行い、画像の明るさの調整などPhotoshopで行った。
+  - Affinity Designerは、吉田のMacBookが遅すぎてIllustratorはイライラするので、 持っているiPad Proで使おうと購入した。これもなかなか便利ではある。が、ネットの情報の大阪ら考えると、Illustratorの方が柔軟に使える。この手のツールにもう少しなれたらAffinity Designerもありだろう。

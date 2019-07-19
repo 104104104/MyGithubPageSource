@@ -6,10 +6,27 @@
     <description>Recent content in Program on 吉田のポートフォリオ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 29 Jun 2019 14:38:34 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 19:04:56 +0900</lastBuildDate>
     
 	<atom:link href="https://104104104.github.io/program/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>計算機科学の技術にまつわる、今まで行ってきたこと</title>
+      <link>https://104104104.github.io/program/others/</link>
+      <pubDate>Mon, 15 Jul 2019 19:04:56 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/program/others/</guid>
+      <description>技術に関わる人として色々なことを行ってきました。
+ 小説を書くAI
+ AIと人が一文づつ交互に文を書くことで、小説を書けるAI 用いたもの  Python Chainer  コードはこちら(https://github.com/104104104/RelayNovelAI)  レトロゲーム
+ Pythonのレトロ風のゲームが作れるモジュール”Pyxel”で書きました Pythonで色々遊ぶうちにPythonになれることができたので、このゲーム全体は４時間程度で書くことができました 詳細は こちら   キモいタピオカが動くJavaScript
+ Javascriptの勉強がてらに作成した 深夜に2時間程度で書いた 詳細は こちら   その他、Pythonで書いたもの
+ 文章を生成(https://github.com/104104104/MyJapaneseNTTK) 単語の意味推測(https://github.com/104104104/MyJapaneseNTTK) 迷路を生成(https://github.com/104104104/PyMaze)、 音の波形を生成(https://github.com/104104104/Py_De_Music) (あまり堂々と言えないが)再帰で辿ってサイト内の画像を全部拾ってくるコード  AmazonLightSail
+ つなぐカフェのWebサイトを作る際のテストのため、サーバーとして使うために借りて、SSHで接続して色々と実験しました  とくに記録は残っていないです…   Githubについて
+ Githubを扱った経験が重要だというネット記事はよく見るので、書き記しておきます  吉田のポートフォリオ  はgithub pageで作成しています つなぐカフェ@飯塚のwebサイト(http://www.tsunagucafe.com) のコードは、githubで複数人で管理しています  ソースコードの確認や、ブログ記事を書くときにここのコードを参考にするためです バイト先のプライベートレポジトリなので、リンクは貼れません…   競技プログラミング
+ 一時期競技プログラミングにはまっていました  AtCoderでギリギリ緑でない茶色のエリアをうろうろしていました  競技プログラミングのアルゴリズムが書けても、自分のしたい仕事には繋がらないなと感じたので、飽きました が、縁があって競技プログラミングの勉強会の企画運営をすることになりました  競プロだけに役立つ知識を教えても仕方ないと思ったので、そもそもプログラミングってなんだ？　といった内容を伝える勉強会にしました 詳細はこちら(https://104104104.github.io/event/rantyao/)    </description>
+    </item>
     
     <item>
       <title>Pyxelで作った避けゲー</title>
@@ -26,7 +43,8 @@
       <pubDate>Fri, 28 Jun 2019 14:16:20 +0900</pubDate>
       
       <guid>https://104104104.github.io/program/tapioka/</guid>
-      <description> これ  概要  友達とタピオカの話が盛り上がった夜、深夜テンションで作った。思ったよりキモくなった。せっかくなのでここに載せる
+      <description> これ 
+概要  友達とタピオカの話が盛り上がった夜、深夜テンションで作った。思ったよりキモくなった。せっかくなのでここに載せる
  Phina.js というゲーム用のJSフレームワークの実験
  Netliftyという、HTML公開サービスの実験 も兼ねていた
   </description>
