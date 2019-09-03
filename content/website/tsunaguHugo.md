@@ -6,22 +6,23 @@ draft: false
 description: "つなぐカフェ＠飯塚の公式ページをHugoで作りました。学外の人間とつながりたい学生、新しい技術で遊びたい学生、活動や作業を行いやすい場所を探している学生に伝えることを想定しています。"
 ---
 
-まさに今作っているものです。
+~~まさに今作っているものです。~~
 
-2019/7/1(月)公開に決まりました。今、最後のデバッグやタイポ探し、読み込み高速化のために画像の縮小などを行っています(2019/6/28更新)
-
-{{% static_a href="/tsunagusite/hugo" %}}このリンク{{% /static_a %}}の、一番下にあるものが、一番新しいバージョンです。
+~~2019/7/1(月)公開に決まりました。今、最後のデバッグやタイポ探し、読み込み高速化のために画像の縮小などを行っています(2019/6/28更新)~~
+公開しました(<a href="http://www.tsunagucafe.com">こちらです</a>)
+吉田が手元で、ポートフォリオ用に保存しているバージョンへのリンクは{{% static_a href="/tsunaguSite/new/index.html"%}}こちら{{% /static_a %}}です。
 
 ### サマリー
 - つなぐカフェ＠飯塚の公式ページをHugoで作りました。
 - 学外の人間とつながりたい学生、新しい技術で遊びたい学生、活動や作業を行いやすい場所を探している学生に伝えることを想定しています。
 
 ### トップページ(の画像)
-{{% static_a href="/tsunagu_hugo/test29/index.html" %}}{{% static_img src="/website2/TsunaguHugo.jpg" %}}{{% /static_a %}}
+{{% static_a href="/tsunaguSite/new/index.html" %}}{{% static_img src="/website2/TsunaguHugo.jpg" %}}{{% /static_a %}}
 
 ### いつ作ったものか
 - 2019/5月 ~ 2019/6月ごろに、このサイトを作っていました。
-- 2019/7/1に<a href="http://www.tsunagucafe.com">ここ</a>に公開します(今日は2019/6/29)。
+- ~~2019/7/1に<a href="http://www.tsunagucafe.com">ここ</a>に公開します(今日は2019/6/29)。~~ 
+- 公開しました
 
 ### 使ったツール
 - HTML + css + Javascrpit
